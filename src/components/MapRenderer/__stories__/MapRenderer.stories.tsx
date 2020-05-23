@@ -1,8 +1,8 @@
-import React from 'react'
-import MapRendererComponent from '../'
+import React from 'react';
+import MapRendererComponent from '../';
 
 export default {
-  title: 'components/MapRenderer'
-}
+  title: 'components/MapRenderer',
+};
 
-export const MapRenderer = () => ( <MapRendererComponent />)
+export const MapRenderer = () => <MapRendererComponent />;

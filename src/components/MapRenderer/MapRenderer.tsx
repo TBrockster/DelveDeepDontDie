@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Coords } from './utils';
 
-const MapRenderer = ():JSX.Element => (
-  <div>Hi! This is MapRenderer</div>
-)
+interface MapRendererProps {
+  rooms: Coords[];
+}
 
-export default MapRenderer
+function MapRenderer({ rooms }: MapRendererProps): JSX.Element {
+  return <div>Hi! This is MapRenderer</div>;
+}
+
+export default MapRenderer;

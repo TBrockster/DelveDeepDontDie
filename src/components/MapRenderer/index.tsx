@@ -1,1 +1,1 @@
-export { default } from './MapRenderer'
+export { default } from './MapRenderer';
